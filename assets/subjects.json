@@ -1,0 +1,22 @@
+{
+    "lernstrategien": {
+        "title": "Lernstrategien",
+        "avatar": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    "lerntypen": {
+        "title": "Lerntypen",
+        "avatar": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-3.jpg"
+    },
+    "probleme": {
+        "title": "Probleme",
+        "avatar": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg"
+    },
+    "organisation": {
+        "title": "(Lern-)Organisation)",
+        "avatar": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-4.jpg"
+    },
+    "hilfestellungen": {
+        "title": "Hilfestellungen",
+        "avatar": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg"
+    }
+}
