@@ -1,0 +1,111 @@
+<ElementCard@MDCard>:
+	md_bg_color:37/255, 150/255, 190/255, .6
+	padding:dp(5)
+	spacing:dp(5)
+	radius:dp(10)
+	ripple_behavior: True
+	image:''
+	text:""
+	sub_text:''
+    desc_text:''
+	orientation:'vertical'
+	
+	Image:
+		source:root.image
+		
+	MDBoxLayout:
+		orientation:'vertical'
+		MDLabel:
+			halign:"center"
+			text:root.text
+			
+		MDLabel:
+			halign:"center"
+			font_style:"Caption"
+			text:root.sub_text	
+
+		MDLabel:
+			halign:"center"
+			text:root.desc_text			
+			
+<HomePage>:
+	md_bg_color:240/255, 240/255, 240/255, 1
+	MDBoxLayout:
+		orientation:'vertical'
+		
+		#top header
+		MDBoxLayout:
+			size_hint: 1, .2
+			padding:dp(20)
+			orientation:'vertical'
+			halign: "center"
+			
+			MDIconButton:
+				icon:"assets/plus_icon.png"
+				
+			MDBoxLayout:
+				MDLabel:
+					text:"Welcome to leier leieren"
+                    halign: "center"
+					font_style:"H5"
+					
+		#Middle container
+		MDGridLayout:
+			size_hint_y:.6
+			cols:2
+			padding:dp(10)
+			spacing:dp(10)
+			
+			ElementCard:
+				image:"assets/plus_icon.png"
+				text:"Lernstrategien"
+				sub_text:" "
+				desc_text:"If you find this helpful"
+				
+			ElementCard:
+				image:"assets/plus_icon.png"
+				text:"Lerntypen"
+				sub_text:" "
+				desc_text:"If you find this helpful"
+				
+			ElementCard:
+				image:"assets/plus_icon.png"
+				text:"Probleme"
+				sub_text:" "
+				desc_text:"If you find this helpful"
+
+			ElementCard:
+				image:"assets/plus_icon.png"
+				text:"(Lern-)Organisation"
+				sub_text:" "
+				desc_text:"If you find this helpful"
+
+            ElementCard:
+				image:"assets/plus_icon.png"
+				text:"Hilfestellungen"
+				sub_text:" "
+				desc_text:"If you find this helpful"
+
+
+		#Footer card
+		MDCard:
+			size_hint: .9, .2
+			pos_hint: {"center_x": .5,"center_y": .5}
+			
+			MDBoxLayout:
+				orientation:"vertical"
+				MDLabel:
+					text:"Support us"
+					font_style:"H6"
+					halign: "center"
+					
+				MDGridLayout:
+					cols:2
+					padding:dp(10)
+					spacing:dp(10)
+					MDBoxLayout:
+						MDIconButton:
+							icon:"images/logo.png"
+						MDLabel:
+							text:"Welcome to Spinn TC"
+							halign:"center"
