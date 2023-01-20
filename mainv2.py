@@ -5,18 +5,26 @@ from kivymd.app import MDApp
 from kivy.core.window import Window
 from kivy.lang import Builder
 from kivymd.uix.screen import MDScreen
+from kivymd.uix.screenmanager import MDScreenManager
 
 from kivymd.uix.card import MDCard
 
 
-class HomePage(MDScreen):
+class Homepage(MDScreen):
+    pass    
+
+
+class Lernstrategien(MDScreen):
+    pass
+
+class WindowManager(MDScreenManager):
     pass
 
 class MainApp(MDApp):
     def build(self):
         Window.size = [400, 600]
-        Builder.load_file('leierleieren.kv')
-        return HomePage()
+        return Builder.load_file('leierleieren.kv')
+        #return Homepage()
 
     # def on_start(self):
     #     self.root.dispatch('on_enter')
